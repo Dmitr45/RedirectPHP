@@ -69,6 +69,7 @@ div{
     background-repeat: no-repeat;
     background-position: 330px 0px;
     background-size: 30px;
+    cursor: pointer;
 }
 
 
@@ -205,14 +206,14 @@ div{
         padding-bottom: 17px;
         color: rgba(35, 35, 35, 1);
         background-repeat: no-repeat;
-        background-position: 50px;
+        background-position: 30px;
         background-size: 32px;
         background-color: #FAFAFA;
         border-bottom: rgba(35, 35, 35, 0.12) 1px solid;
         .arrow {
             display: inline-block;
             width: 50%;
-            text-align: right;
+            text-align: center;
             
         }
             &:hover{

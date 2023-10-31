@@ -223,6 +223,7 @@ div {
   background-repeat: no-repeat;
   background-position: 330px 0px;
   background-size: 30px;
+  cursor: pointer;
 }
 
 .logo {
@@ -349,7 +350,7 @@ div {
   padding-bottom: 17px;
   color: rgb(35, 35, 35);
   background-repeat: no-repeat;
-  background-position: 50px;
+  background-position: 30px;
   background-size: 32px;
   background-color: #FAFAFA;
   border-bottom: rgba(35, 35, 35, 0.12) 1px solid;
@@ -357,7 +358,7 @@ div {
 .contact_social .WP .arrow, .contact_social .FB .arrow, .contact_social .TG .arrow {
   display: inline-block;
   width: 50%;
-  text-align: right;
+  text-align: center;
 }
 .contact_social .WP:hover, .contact_social .FB:hover, .contact_social .TG:hover {
   border-bottom: #000 2px solid;

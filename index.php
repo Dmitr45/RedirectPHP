@@ -19,7 +19,7 @@
 
 
 <div class="container">
-    <div class="close"></div>
+<div class="close"></div>
     <div class="logo">
         <span class="F700">Pocket</span><span class="F400">Option</span>
     </div>
