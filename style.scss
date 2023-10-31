@@ -1,0 +1,150 @@
+@import 'components_scss/reset.scss';
+@import 'components_scss/redirect_setting.scss';
+
+html{
+    width: 100%;
+    height: 100%;
+
+}
+div{
+    height: max-content;
+    background-color: #fff;
+}
+
+.zindex1000{
+    z-index: 1000;
+}
+
+.zindex500{
+    z-index: 500;
+}
+.zindex0{
+    z-index: -1;
+}
+
+.container{
+    margin: 0 auto;
+    width: 390px;
+    position: relative;
+}
+
+.logo{
+    background-image: url(../img/logo.png);
+    background-size: 50px;
+    background-position: 50px;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.photo{
+    margin: 150px auto 0 auto;
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/Photo.JPG);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.name{
+    margin: 15px 0;
+    font-size: 40px;
+    text-align: center;
+    &_status{
+        font-size: 20px;
+        opacity: 0.5;
+        text-align: center;
+        &_circle {
+            display: inline-block;
+            background: #02B92F;
+            clip-path: circle(50%);
+            height: 13px;
+            width: 13px;
+          }
+    }
+}
+
+.position{
+    margin: 50px 0;
+    font-size: 40px;
+    text-align: center;
+    &_span{
+        margin-top: 7px;
+        opacity: 0.5;
+        display: block;
+        font-size: 30px;
+        text-align: center; 
+    }
+}
+
+.button_send{
+    margin: 50px auto 30px auto;
+    height: 65px;
+    width: 95%;
+    background-color: #1767DD;
+    border: #1767DD solid 2px;
+    border-radius: 15px;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.25s;
+    &:hover{
+        color: #1767DD;
+        background-color: #fff;
+    }
+}
+
+.contact{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 360px;
+    border: #fff 1px solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    &_toggle{
+        margin: 10px auto;
+        width: 30%;
+        height: 10px;
+        background-color: #DFDFDF;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    &_head{
+        margin: 30px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+    &_social{
+        margin: 15px 0;
+        padding-left: 15px;
+        font-size: 30px;
+        text-align: left;
+        border-bottom: #3a3737 1px solid ;
+        cursor: pointer;
+        transition: all 0.25s;
+        &:hover{
+            border-bottom: #000 2px solid ;
+        }
+
+    }
+}
+.grey{
+    position: absolute;
+    top:0;
+    background-color: #000;
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+}
